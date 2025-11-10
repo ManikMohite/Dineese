@@ -1,0 +1,103 @@
+import olive1 from "../assets/olive1.jpg";
+import olive2 from "../assets/olive2 .jpg";
+import spice1 from "../assets/spice1.jpg";
+import spice2 from "../assets/spice2.jpg";
+import sushi1 from "../assets/sushi1.png";
+import sushi2 from "../assets/sushi2.jpg";
+
+export const restaurants = [
+  {
+    id: "olive-garden",
+    name: "The Olive Garden",
+    rating: 4.6,
+    reviews: 280,
+    distanceKm: 2.1,
+    cuisine: ["Italian", "Pasta"],
+    price: "₹₹",
+    availableNow: true,
+    waitMins: 0,
+    photos: [olive1, olive2],
+    location: "Koregaon Park, Pune",
+    about: "Cozy Italian dining with handmade pasta and brick-oven pizzas.",
+    menuPreview: ["Spaghetti Aglio e Olio", "Four Cheese Pizza", "Tiramisu"],
+  },
+
+  {
+    id: "spice-route",
+    name: "Spice Route",
+    rating: 4.4,
+    reviews: 194,
+    distanceKm: 3.4,
+    cuisine: ["Indian", "North Indian"],
+    price: "₹₹",
+    availableNow: false,
+    waitMins: 20,
+    photos: [spice1, spice2],
+    location: "Baner, Pune",
+    about: "Flavours of the North with modern plating and live tandoor.",
+    menuPreview: ["Butter Chicken", "Dal Makhani", "Gulab Jamun"],
+  },
+
+  {
+    id: "sushi-haven",
+    name: "Sushi Haven",
+    rating: 4.8,
+    reviews: 322,
+    distanceKm: 5.2,
+    cuisine: ["Japanese", "Sushi"],
+    price: "₹₹₹",
+    availableNow: true,
+    waitMins: 0,
+    photos: [sushi1, sushi2],
+    location: "Viman Nagar, Pune",
+    about: "Authentic nigiri, sashimi and maki crafted by master chefs.",
+    menuPreview: ["Salmon Nigiri", "Dragon Roll", "Miso Soup"],
+  },
+  {
+    id: "Burger-House",
+    name: "The burger  Garden",
+    rating: 4.6,
+    reviews: 280,
+    distanceKm: 2.1,
+    cuisine: ["Italian", "Pasta"],
+    price: "₹₹",
+    availableNow: true,
+    waitMins: 0,
+    photos: [olive1, olive2],
+    location: "Koregaon Park, Pune",
+    about: "Cozy Italian dining with handmade pasta and brick-oven pizzas.",
+    menuPreview: ["Spaghetti Aglio e Olio", "Four Cheese Pizza", "Tiramisu"],
+  },
+
+  {
+    id: "Pizza point",
+    name: "Pizza point",
+    rating: 4.4,
+    reviews: 194,
+    distanceKm: 3.4,
+    cuisine: ["Indian", "North Indian"],
+    price: "₹₹",
+    availableNow: false,
+    waitMins: 20,
+    photos: [spice1, spice2],
+    location: "Baner, Pune",
+    about: "Flavours of the North with modern plating and live tandoor.",
+    menuPreview: ["Butter Chicken", "Dal Makhani", "Gulab Jamun"],
+  },
+
+  {
+    id: "cafe-chai",
+    name: "cafe-chai",
+    rating: 4.8,
+    reviews: 322,
+    distanceKm: 5.2,
+    cuisine: ["Japanese", "Sushi"],
+    price: "₹₹₹",
+    availableNow: true,
+    waitMins: 0,
+    photos: [sushi1, sushi2],
+    location: "Viman Nagar, Pune",
+    about: "Authentic nigiri, sashimi and maki crafted by master chefs.",
+    menuPreview: ["Salmon Nigiri", "Dragon Roll", "Miso Soup"],
+  },
+];
