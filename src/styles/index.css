@@ -4,15 +4,35 @@
 
 @layer base {
   * { @apply antialiased; }
-  body { @apply text-ink font-sans; }
+  body { @apply text-textDark font-sans bg-background; }
 }
 
 @layer components {
-  .btn { @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-medium transition active:scale-[.98]; }
-  .btn-primary { @apply btn bg-primary text-white hover:opacity-90 shadow-soft; }
-  .btn-ghost { @apply btn bg-white border border-slate-200 hover:shadow-soft; }
-  .chip { @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-200 text-sm bg-white; }
-  .card { @apply rounded-2xl bg-white border border-slate-200 shadow-soft; }
-  .input { @apply w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-primary; }
-  .label { @apply text-sm text-slate-600 mb-1; }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-medium transition active:scale-[.98];
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-white hover:opacity-90 shadow-card;
+  }
+
+  .btn-ghost {
+    @apply btn bg-white border border-slate-200 hover:shadow-card;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-200 text-sm bg-white;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white border border-slate-200 shadow-card hover:shadow-cardHover transition;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 rounded-xl border border-slate-300 bg-white outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .label {
+    @apply text-sm text-textLight mb-1;
+  }
 }
